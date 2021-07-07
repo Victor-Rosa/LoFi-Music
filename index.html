@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Lo-Fi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main class="main_div">
+
+        <section>
+            <div class="music_container">
+                <h2>CODE LO-FI</h2> 
+                    <div class="img_container">
+                        <img class="imglofi" src="./image/lofi.jpeg" alt="">
+                    </div>
+        
+                    <audio  id="audio">
+                        <source  src="./music/coffee_lofi.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <div class="music_controls">
+                        <img onclick="musicBack()" class="buttons" src="./image/seta-esquerda.svg" alt="">
+                        <img onclick="musicPause()" class="buttons" src="./image/botao-de-pausa.svg" alt="">
+                        <img onclick="musicPlay()" class="buttons" src="./image/toque.svg" alt="">
+                        <img onclick="musicAvanced()" class="buttons" src="./image/seta-direita.svg" alt="">
+                    </div>
+            </div>
+        </section>    
+    </main>
+    
+    <script src="../Musica Player/script.js" ></script>
+</body>
+</html>
