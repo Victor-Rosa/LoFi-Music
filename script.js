@@ -5,7 +5,7 @@ console.log(img)
 function musicPlay(){
     music.play()
     img.style.animation = ''
-    img.style.animation = "spin 4s linear infinite"
+    img.style.animation = "spin 8s linear infinite"
     
 }
 
